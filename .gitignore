@@ -1,0 +1,26 @@
+## Ignore Visual Studio temporary files, build results
+
+# User-specific files
+*.suo
+*.user
+
+# User-specific folder
+.vs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x86/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
